@@ -1,0 +1,38 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background-color: #13293d;
+  color: #fff;
+  
+}
+
+h1 {
+  font-size: 150%;
+  background-color: 
+  padding: 
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  padding: 20px;
+}
+
+.hero {
+  height: 100px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/hero.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+h2 {
+  float: left;
+}
+
