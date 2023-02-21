@@ -1,9 +1,15 @@
+:root {
+  --dark: #333;
+  --pink: #pink;
+  --col-gap: 10px;
+}
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: black;
+  background-color: #333;
   color: #fff;
   
 }
@@ -11,7 +17,7 @@ header {
 h1 {
   font-size: 150%;
   background-color: pink;
-  color: black;
+  color: #333;
   padding: 10px;
 }
 
@@ -32,29 +38,42 @@ nav a {
   background-image: url("../images/hero.jpg");
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 
 h2 {
   background-color: pink;
   display: inline;
   padding: 10px;
+  position: absolute;
+  right: 40px;
+  bottom: 20px;
 }
-
-/* h3 {
-  float: left;
-} */
 
 #work-container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
-  margin-top: 2%;
+  row-gap: 10px;
+  column-gap: var(--col-gap);
+  
   
 }
 
-.work-card img {
-  width: 50%;
+.col-12 {
+  flex-basis: 100%;
 }
 
-.work-image {
-  width: 50%;
+.col-6 {
+  flex-basis: calc(50%- var(--col-gap) / 2);
 }
+
+/* .work-card {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+} */
+
+/* .work-image {
+  /* width: 50%; */
+/* } */ 
