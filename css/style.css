@@ -50,6 +50,20 @@ h2 {
   bottom: 20px;
 }
 
+.page-section {
+  display: flex;
+  align-items: center;
+}
+
+.page-section h3 {
+  margin-right: 10px;
+}
+
+.page-section #work-container {
+  border-left: 1px solid #ccc;
+  padding-left: 10px;
+}
+
 #work-container {
   display: flex;
   justify-content: space-between;
