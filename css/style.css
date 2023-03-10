@@ -63,10 +63,10 @@ nav .nav-link {
   font-weight: var(--weight-semibold);
 }
 
-nav #profilep img {
+/* nav #profilep img {
   display: block;
   width: 40px;
-}
+} */
 
 nav .btn {
   margin-right: 1.5rem;
@@ -85,8 +85,11 @@ nav .btn {
 }
 
 .profile-image {
-  width: 150px;
   border-radius: 50%;
+  width: 200px; 
+  height: 200px; 
+  object-fit: cover; 
+  object-position: center 35%;
   animation: bounce 1s infinite alternate;
 }
 @keyframes bounce {
