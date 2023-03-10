@@ -423,3 +423,15 @@ h2::selection {
 #switch:checked + .toggle-icons .sun {
   transform: rotate(100deg);
 }
+
+[data-theme="dark"] {
+  --primary-color: #ffcd42;
+  --secondary-color: #ffd35c;
+  --bg-primary: #000000;
+  --text-color: #ffffff;
+  --text-color-two: #222222;
+  --bg-secondary: #ffffff;
+  --card-background: #111111;
+  --bg-secondary-two: #f4f4f4;
+  --shadow: 0 2px 10px rgba(95, 95, 95, 0.2);
+}
