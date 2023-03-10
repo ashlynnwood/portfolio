@@ -92,6 +92,7 @@ nav .btn {
   object-position: center 35%;
   animation: bounce 1s infinite alternate;
 }
+
 @keyframes bounce {
   from {
     transform: translateY(0px);
@@ -240,7 +241,7 @@ h2::selection {
 
 /* Project 4 */
 .card:nth-child(4) {
-  background: url(../images/placeholder.jpg) center center/cover;
+  background: url(../images/jate.jpg) center center/cover;
 }
 
 /* Project 5 */
