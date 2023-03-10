@@ -1,7 +1,7 @@
 # My Portfolio
 
 ## Description
-This is my portfolio to showcase my work! 
+This is my portfolio to showcase my work.
 
 ## Preview
 ![portfolio-preview](./images/portfolio.png)
